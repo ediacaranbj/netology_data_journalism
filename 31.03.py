@@ -69,6 +69,7 @@ elif length > 200: # длина больше 2 м
 else: # остальные
     print('Стандартная коробка №3')
 
+    
 # Задача 5
 
 number = list(input('Введите шестизначное число: ')) # преобразуем в список
@@ -102,4 +103,3 @@ elif figure == 'прямоугольник':
     srectangle = int(rectangle_a)*int(rectangle_a)
     print('Результат: ')
     print('Площадь прямоугольниа: ' + str(srectangle))
-
